@@ -167,21 +167,21 @@ function ext_context_blocks_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'views-social_media_links-block_1' => array(
+          'module' => 'views',
+          'delta' => 'social_media_links-block_1',
+          'region' => 'sidebar_last',
+          'weight' => 0,
+        ),
         'extension_settings-0' => array(
           'module' => 'extension_settings',
           'delta' => 0,
           'region' => 'sidebar_last',
-          'weight' => 0,
+          'weight' => 1,
         ),
         'ask_expert-0' => array(
           'module' => 'ask_expert',
           'delta' => 0,
-          'region' => 'sidebar_last',
-          'weight' => 1,
-        ),
-        'views-social_media_links-block_1' => array(
-          'module' => 'views',
-          'delta' => 'social_media_links-block_1',
           'region' => 'sidebar_last',
           'weight' => 2,
         ),
